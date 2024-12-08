@@ -1,0 +1,30 @@
+{
+    "data" : {
+        "conditions": {
+            "0": {
+                "population": "Population struggles to survive as resources float away.",
+                "weather": "Weather is erratic with floating water vapor and storms.",
+                "emotions": "People feel disoriented and detached.",
+                "shortTermBenefits": "No gravity-based injuries.",
+                "longTermBenefits": "Innovations in anti-gravity technologies.",
+                "existentialCrisis": "Severe as the world feels surreal and unstable."
+            },
+            "50": {
+                "population": "Population adapts, but physical strain is noticeable.",
+                "weather": "Mild weather with floating clouds and half-settled storms.",
+                "emotions": "People feel moderately grounded but uneasy.",
+                "shortTermBenefits": "Reduced transportation effort.",
+                "longTermBenefits": "Better health due to balanced mobility.",
+                "existentialCrisis": "Moderate as the world feels partially normal."
+            },
+            "100": {
+                "population": "Population thrives with stable living conditions.",
+                "weather": "Weather is normal and predictable.",
+                "emotions": "People feel fully grounded and secure.",
+                "shortTermBenefits": "Stable economy and environment.",
+                "longTermBenefits": "Long-term growth and prosperity.",
+                "existentialCrisis": "Minimal as the world feels as it should."
+            }
+        }
+    }
+}

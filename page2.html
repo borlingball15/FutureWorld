@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0% Gravity</title>
+    <link rel="stylesheet" href="page1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Background Video -->
+    <video id="background-video" autoplay muted loop>
+        <source src="50 gravity.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content Section -->
+    <div id="content">
+       <!-- Button to show the popup -->
+<button id="popup-btn">50% Gravity</button>
+
+<!-- Popup content -->
+<div id="popup" style="display: none; /* Initially hidden */">
+    <button id="closePopupButton" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; padding: 5px 10px; cursor: pointer;">Close</button>
+    
+    <p class="line-1 anim-typewriter"><strong>Population:</strong> 100,000</p>
+    <p class="line-1 anim-typewriter"><strong>Weather:</strong> Mildly Chaotic, Irregular, Frequent Windstorms.</p>
+    <p class="line-1 anim-typewriter"><strong>Emotions:</strong> Adaptable, Intrigued, Slightly Frustrated.</p>
+    <p class="line-1 anim-typewriter"><strong>Short Term Implications:</strong> Some Challenges in Mobility; Increased Bone Density Concerns.</p>
+    <p class="line-1 anim-typewriter"><strong>Long Term Implications:</strong> Adaptation Through Technology and Evolution.</p>
+    <p class="line-1 anim-typewriter"><strong>Existential Crisis Level:</strong> Moderate.</p>
+    
+</div>
+        
+
+    <script src="gravity.js"></script>
+</body>
+</html>

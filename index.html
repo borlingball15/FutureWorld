@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity Control</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">In a world where you control gravity, you decide over everyone's wellbeing.</h1>
+    <p id="subtitle">Would you be a <span id="hero">hero</span> or a <span id="villain">villain</span>?</p>
+
+    <div class="bar-container" id="bar">
+        <div class="segment" id="segment1" onclick="selectSegment(1)">0% Gravity</div>
+        <div class="segment" id="segment2" onclick="selectSegment(2)">50% Gravity</div>
+        <div class="segment" id="segment3" onclick="selectSegment(3)">100% Gravity</div>
+    </div>
+
+    <button class="btn" id="nextBtn">let's imagine this world</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
