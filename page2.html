@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>0% Gravity</title>
+    <title>50% Gravity</title>
     <link rel="stylesheet" href="page1.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
@@ -13,6 +13,20 @@
         <source src="50 gravity.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+
+    <div id="content">
+
+ 
+ <audio id="background-music" autoplay loop>
+     <source src="page2.mp3" type="audio/mp3">
+     Your browser does not support the audio element.
+ </audio>
+ 
+ <script>
+     // Set the background music volume to 50% (0.5)
+     document.getElementById("background-music").volume = 0.4
+     ;
+ </script>
 
     <!-- Content Section -->
     <div id="content">

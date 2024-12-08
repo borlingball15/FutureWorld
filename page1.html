@@ -19,6 +19,17 @@
        <!-- Button to show the popup -->
 <button id="popup-btn">0% Gravity</button>
 
+<audio id="background-music" autoplay loop>
+    <source src="opening music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    // Set the background music volume to 50% (0.5)
+    document.getElementById("background-music").volume = 0.4
+    ;
+</script>
+
 <!-- Popup content -->
 <div id="popup" style="display: none; /* Initially hidden */">
     <button id="closePopupButton" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; padding: 5px 10px; cursor: pointer;">Close</button>
